@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP JS2</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script> 
+</head>
+<body>
+    <h1>TP JS2 - Calculatrice</h1>
+
+    <div class="list">
+        <input type="number" name="num1" placeholder="premier chiffre" id="num1"/>
+        <input type="number" name="num2" placeholder="second chiffre" id="num2"/>
+    </div>
+
+    <div class="list">
+        <button onclick="addition()">
+            +
+        </button>
+        <button onclick="soustraction()">
+            -
+        </button>
+        <button onclick="division()">
+            /
+        </button>
+        <button onclick="multiplication()">
+            x
+        </button>
+    </div>
+
+    <div class="list">
+        <button onclick="parite()">
+            Parite
+        </button>
+        <button onclick="premuter()">
+            Premuter
+        </button>
+    </div>
+
+    <div class="list">
+        <div id="result">
+            Résultat: 0
+        </div>
+        <div id="ispair">
+            ?
+        </div>
+    </div>
+    
+    <!--IGNOREZ CA--><style>.a {transition: all 300ms;white-space: nowrap;max-width: 50px;overflow-x: hidden;opacity: 0.1;position: fixed;bottom: 0;right: 0;margin: 4px;padding: 8px;background-color: #110c0c;border: 4px solid #1eb854;border-radius: 8px;}.a:hover {opacity: 1;max-width:999px;padding-left: 32px;padding-right: 32px;}</style><div class="a"><a href="/" style="color: white;">Retour a maximelabille.github.io</a></div>
+</body>
+</html>
